@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive websites, usually utilizing a viewport-meta-tag, will detect the viewport size on any device and adjust the browser's layout and functionality to optimize the browsing experience for the user.  Fully responsive websites/pages provide the most advanced type of browsing experience to accommodate fluidly across all devices.  Responsive sites are usually set up with a max-width.  Adaptive websites, slightly less advanced, will also adjust its layout and functionality to accommodate various viewports, but only at specific breakpoints.  Adaptive websites are not as fluid and will only adjust when a breakpoint is reached.  These sites are usually triggered when a desired width triggers a new layout.  Fully responsive, using max-width, accommodates a range, while adaptive, using a width, accommodates a single breakpoint.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first vs. desktop first refers to the developer(s) starting point in web development.  If a developer or team is 'mobile first', this refers to the teams objective of optimizing their site for a mobile device first.  As the team continues to build their code, they venture into tablets, and eventually desktops last.  Mobile first, designs and builds sites in a smallest viewport to largest viewport order.  Desktop first is the exact opposite.  They build their websites starting at the largest viewport  size, and work their way down to the smallest viewport size, in terms of layout, design, and functionality.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+62.5% is the conversion rate to set 1rem equal to 10 pixels.  This makes utilizing the functionality and fluidity of rem's fully responsive unit and the commonality of designing and using pixels a simple conversion for developers to switch to.  In short, it allows developers to "think" in pixels, while utilizing the "functionality", in terms of responsiveness, of rem units.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is an amazing process, of utilizing nesting, various levels deep, and other useful techniques to assign styling to a webpage.  Preprocessors utilize their expansive tool set and make styling, in my opinion, a much easier and more accurate experience.  First the code is arranged using a preprocessor, then it is converted to CSS using a compiler.  Once compiled the final coding result is purely CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is the ability to nest so universally to accomplish web development goals.  I find it extremely easy to communicate design specifications with the computer.  The most troubling concept to me, which I'm sure may grow into a love, is the concept of syntax perfection.  If one keystroke or character is extra or out of place, the preprocessor will not allow the compiler to convert the code into CSS, and although it seems like you are coding, the results will not show on your website until the syntax is perfect.  Although this is troubling to a new developer, I'd imagine it will quickly sharpen their skills, understanding, and attention to detail and in a way, may grow into a desirable feature.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
