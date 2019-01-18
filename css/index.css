@@ -194,6 +194,7 @@ footer {
 }
 .home .intro .spacey {
   border-radius: 4px;
+  max-width: 100%;
 }
 @media ( max-width: 500px ) {
   .home .intro {
